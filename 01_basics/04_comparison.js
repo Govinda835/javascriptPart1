@@ -18,3 +18,16 @@ console.log(undefined == 0)
 
 console.log("2" === 2)
 
+// program to find the greater number between two numbers
+let a = 50;
+let b=30;
+if(a>b){
+    console.log(`${a} is greater.`)
+}
+else if(a == b){
+    console.log(`${a} is greater.`)
+}
+else{
+    console.log(`${b} is greater.`)
+}
+

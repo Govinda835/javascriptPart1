@@ -23,8 +23,8 @@ console.log(Array.from({name: "govinda"})); // interesting
 // const score1 = [100]
 // const score2 = [200]
 // const score3 = [300]
-// const score = [...score1, ...score2, ...score3]
-// console.log(score);
+ const score = [...score1, ...score2, ...score3]
+ console.log(score);
 
 const score1 = 100
 const score2 = 200

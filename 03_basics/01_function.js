@@ -30,14 +30,47 @@ const result = addTwoNumbers(3 , 5)
 // console.log("result: ", result);
 
 
-function logInUserMessage (username = "shyam"){ // shyam is default value
-    if(username === undefined){ //!username
-       return console.log("please enter the username");
+function logInMessage (username){
+    if(username == undefined)
+    {
+        return `please enter the username..`
     }
-    else{
-        return `${username} just loggedin`
-    }
-    
-
+    return `${username} logged in...`
 }
-console.log(logInUserMessage("govinda"));
+console.log(logInMessage("govinda"))
+
+
+function calculateCartPrice(...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200, 400, 500, 600))
+
+const user = {
+    username : "govinda",
+    price : 199
+}
+
+function handleObject(anyObject){
+    return `username is ${anyObject.username} and the price is ${anyObject.price}`
+}
+console.log(handleObject(user))
+
+
+function anotherObject (objects){
+    return `${objects.username} and ${objects.price}`
+}
+
+console.log(anotherObject({
+    username : "govinda chaudhary",
+    price : 599
+}))
+
+
+const myNewArray = [100, 200, 300, 400]
+function returnSecondValue(getArray){
+    return getArray[3]
+}
+// console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([200, 400, 500, 600]))
+
+

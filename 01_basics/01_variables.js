@@ -22,3 +22,12 @@ console.log(accountId);
 */
 
 console.table([accountId, accoundEmail, accoundPassword, accountCity, accountState])
+
+const username = {
+    name : "govinda",
+    age : 21,
+    college : "Mahendra Multiple Campus..."
+}
+console.log(username.name, username.age)
+
+console.log(username);

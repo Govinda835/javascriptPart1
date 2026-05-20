@@ -27,3 +27,6 @@ const min = 10
 const max = 20
 const random = Math.floor(Math.random()*(max - min + 1) + min)
 console.log(random)
+
+console.log(3 +"5") // output 35 
+console.log(3 + 5); // output 8
